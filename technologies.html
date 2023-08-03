@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="./images/Big-Data.png?" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Big Data</title>
+  </head>
+
+  <body id="box" class="bg-neutral-50">
+    <div class="py-3 px-3 md:px-0 bg-secondary-default">
+      <div class="container m-auto">
+        <nav class="md:flex md:justify-between items-center">
+          <div class="flex justify-between items-center">
+            <img
+              src="./images/Big-Data.png"
+              alt="Big-Data"
+              width="80"
+              class="mb-2 ml-2"
+            />
+            <h3 class="text-3xl text-neutral-50 my-3 md:px-3">Big Data</h3>
+            <div class="text-xl cursor-pointer text-neutral-50 md:hidden">
+              <svg
+                id="show"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- now to make it responsive -->
+          <div class="hidden md:flex flex-col md:flex-row" id="navbar">
+            <a
+              href="index.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Home</a
+            >
+            <a
+              href="example.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Examples</a
+            >
+            <a
+              href="technologies.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Technologies</a
+            >
+            <a
+              href="future-trends.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Future Trends</a
+            >
+            <a
+              href="conclusion.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Conclusion</a
+            >
+          </div>
+        </nav>
+      </div>
+      <hr />
+    </div>
+
+    <!-- Start Section -->
+    <div class="py-3 px-3 md:px-0 bg-secondary-default">
+      <div class="text-center my-20">
+        <div class="mx-auto w-10/12 md:w-7/12">
+          <p
+            class="text-xl md:text-3xl font-bold text-neutral-primary my-5 text-center"
+          >
+            Big Data in Technologies
+          </p>
+          <p class="text-xl text-neutral-primary font-semibold text-justify">
+            In the era of Big Data, the volume and complexity of data generated
+            daily have propelled the need for advanced technologies and
+            frameworks to handle and extract valuable insights from this massive
+            influx of information. In this section, we will introduce key Big
+            Data technologies and frameworks that have revolutionized the
+            landscape of application development. From distributed storage and
+            real-time analytics to flexible databases, these technologies have
+            become indispensable tools in harnessing the power of Big Data.
+            However, along with the opportunities they present, they also pose
+            unique challenges that organizations must overcome to fully leverage
+            the potential of Big Data. Let's delve into the world of Hadoop,
+            Apache Spark, NoSQL databases, and explore the challenges they bring
+            and the solutions to overcome them.
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!-- Big Data Frameworks Example -->
+    <div class="container mx-auto my-20">
+      <h1 class="text-5xl text-center text-primary-variant mx-4">
+        Big Data Framework Examples
+      </h1>
+      <p class="text-xl text-neutral-primary font-semibold text-center p-4">
+        Big Data frameworks are software systems and platforms designed to
+        process, store, and analyze large volumes of data efficiently. These
+        frameworks provide tools, libraries, and APIs that simplify the
+        development and management of Big Data applications.
+      </p>
+      <div
+        class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-3 my-9 justify-center"
+      >
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/Hadoop.png" alt="Hadoop" />
+          </span>
+          <p class="text-md text-primary-default mt-2">Hadoop</p>
+          <p class="text-neutral-300 my-2">
+            Hadoop is an open-source, distributed storage and processing
+            framework designed to handle large-scale datasets across clusters of
+            commodity hardware. It utilizes the Hadoop Distributed File System
+            (HDFS) for storing data in a distributed manner and the MapReduce
+            programming model for processing and analyzing data in parallel.
+            Hadoop's ability to scale horizontally makes it suitable for
+            processing massive volumes of data efficiently.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/ApacheSpark.png" alt="ApacheSpark" />
+          </span>
+          <p class="text-md text-primary-default mt-2">Apache Spark</p>
+          <p class="text-neutral-300 my-2">
+            Apache Spark is a fast and powerful open-source data processing
+            engine that supports real-time data analytics and large-scale data
+            processing. Spark provides in-memory data processing, significantly
+            improving processing speeds compared to traditional batch processing
+            frameworks. With support for various data processing tasks, such as
+            batch processing, stream processing, machine learning, and graph
+            processing, Spark has become a popular choice for building
+            data-intensive applications.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/NoSql.png" alt="NoSql" />
+          </span>
+          <p class="text-md text-primary-default mt-2">NoSQL Databases</p>
+          <p class="text-neutral-300 my-2">
+            NoSQL databases are non-relational databases designed to handle
+            diverse and unstructured data. Unlike traditional SQL databases,
+            NoSQL databases do not enforce a fixed schema, making them highly
+            flexible for managing unstructured and rapidly evolving data.
+            Examples of NoSQL databases include MongoDB, Cassandra, and Redis,
+            each catering to specific use cases and offering high scalability
+            and performance.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/ApacheFlink.png" alt="ApacheFlink" />
+          </span>
+          <p class="text-md text-primary-default mt-2">Apache Flink</p>
+          <p class="text-neutral-300 my-2">
+            Apache Flink is an open-source stream processing framework designed
+            for real-time data analytics. It provides low-latency and
+            high-throughput processing of data streams, making it ideal for
+            applications that require continuous data analysis, such as fraud
+            detection, real-time monitoring, and event-driven systems.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/Elasticsearch.png" alt="Elasticsearch" />
+          </span>
+          <p class="text-md text-primary-default mt-2">Elasticsearch</p>
+          <p class="text-neutral-300 my-2">
+            Elasticsearch is a distributed search and analytics engine commonly
+            used for full-text search and real-time data exploration. It allows
+            organizations to index, search, and analyze large volumes of data in
+            real-time, making it valuable for applications like log analysis,
+            business intelligence, and monitoring systems.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/Cassandra.png" alt="Cassandra" />
+          </span>
+          <p class="text-md text-primary-default mt-2">Cassandra</p>
+          <p class="text-neutral-300 my-2">
+            Cassandra is a distributed NoSQL database known for its ability to
+            handle high-velocity data writes and provide linear scalability. It
+            is widely used in applications where low-latency and high
+            availability are crucial, such as time-series data, real-time
+            analytics, and Internet of Things (IoT) data management.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/ApacheKafka.png" alt="ApacheKafka" />
+          </span>
+          <p class="text-md text-primary-default mt-2">Apache Kafka</p>
+          <p class="text-neutral-300 my-2">
+            Apache Kafka is a distributed event streaming platform used to
+            handle real-time data streams. It enables applications to publish
+            and subscribe to data streams, making it suitable for building data
+            pipelines, log aggregation, and stream processing systems.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/Amazon-S3.png" alt="Amazon-S3" />
+          </span>
+          <p class="text-md text-primary-default mt-2">Amazon S3</p>
+          <p class="text-neutral-300 my-2">
+            Amazon S3 (Simple Storage Service) is a scalable object storage
+            service offered by Amazon Web Services (AWS). It allows users to
+            store and retrieve large amounts of unstructured data, making it a
+            popular choice for Big Data storage and data archiving in the cloud.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+        <div class="p-4 border">
+          <span class="grid justify-center content-center">
+            <img src="./images/Splunk.png" alt="Energy" />
+          </span>
+          <p class="text-md text-primary-default mt-2">Splunk</p>
+          <p class="text-neutral-300 my-2">
+            Splunk is a platform for analyzing and visualizing machine-generated
+            data, including logs, metrics, and other operational data. It helps
+            organizations gain insights into their IT infrastructure, security,
+            and business operations, enabling proactive monitoring and
+            troubleshooting.
+          </p>
+          <p
+            class="underline font-bold text-xl cursor-pointer hover:text-primary-t2"
+          >
+            Read More
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Framework Example -->
+    <h1 class="text-center text-5xl font-semibold py-4 text-primary-variant">
+      Big Data in Application Development in Various Industries Section
+    </h1>
+    <iframe
+      class="w-full h-screen block mx-auto pb-3 xxs:px-2 xs:px-6"
+      src="https://www.youtube.com/embed/zH5wfzG2am0"
+      title="Big Data Example"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <br />
+
+    <!-- subscribe Section -->
+    <div class="container mx-auto mb-10 p-10">
+      <div class="bg-neutral-100 rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 p-5 gap-5">
+          <div class="my-4">
+            <h3 class="text-3xl text-primary-variant">
+              Subscribe to Gabriel Mendoza Newsletter
+            </h3>
+            <p class="text-neutral-secondary mt-1">
+              Subscribe to our newsletter for the latest programming news,
+              updates, and behind-the-scenes stories. Stay informed about
+              cutting-edge technologies, coding tips, and exclusive interviews
+              with top developers. Join us now to stay ahead in the tech world!
+            </p>
+          </div>
+          <div class="my-4">
+            <form class="my-4">
+              <input
+                type="text"
+                placeholder="Subscribe For Gabriel Mendoza NewsLetter"
+                class="outline-primary-t3 text-neutral-secondary border w-full my-2 py-2 px-3 rounded-lg"
+              />
+              <button
+                class="text-neutral-50 hover:bg-primary-default bg-primary-t2 px-4 rounded-lg bg-neutral-50 py-2 mt-2 float-right"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-secondary-default h-fit">
+      <div class="container mx-auto pt-5 px-5">
+        <div
+          class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
+        >
+          <div class="my-3">
+            <h3 class="text-4xl text-neutral-50">VloggersTV</h3>
+            <h3 class="my-4 text-xl text-neutral-50">
+              VloggersTV is a video content platform that aims to bring the
+              latest news, trends, and insights from the world of vlogging.
+            </h3>
+            <p class="my-2 text-neutral-50 font-medium">
+              Our mission is to empower content creators to share their stories,
+              connect with their audience, and grow their online presence. Join
+              us today and become part of the VloggersTV community!
+            </p>
+            <button
+              class="underline font-bold text-md text-neutral-primary hover:text-neutral-50"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">Navigation Links</h3>
+            <div>
+              <div class="pt-2"></div>
+              <a
+                href="index.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Home</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="blog.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Examples</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="about.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Technologies</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="contact.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Future Trends</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="contact.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Conclusion</a
+              >
+            </div>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">
+              What I Use To Make This Project
+            </h3>
+            <ul>
+              <li class="my-3 text-neutral-50 text-xl">Tailwind</li>
+              <li class="my-3 text-neutral-50 text-xl">SCSS</li>
+              <li class="my-3 text-neutral-50 text-xl">HTML</li>
+              <li class="my-3 text-neutral-50 text-xl">JS</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Up arrow section -->
+        <span class="relative grid justify-end bottom-20 m-0 p-0">
+          <a href="#" class="scroll-to-top"
+            ><img src="./images/up-arrow.png" alt="arrow" width="100"
+          /></a>
+        </span>
+      </div>
+    </footer>
+
+    <script>
+      const show = document.getElementById("show");
+      const navbar = document.getElementById("navbar");
+      show.addEventListener("click", () => {
+        if (navbar.classList.contains("hidden")) {
+          navbar.classList.add("flex");
+          navbar.classList.remove("hidden");
+        } else {
+          navbar.classList.remove("flex");
+          navbar.classList.add("hidden");
+        }
+      });
+
+      $(document).ready(function () {
+        $(".scroll-to-top").click(function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            1000
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
